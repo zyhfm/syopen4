@@ -39,7 +39,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #git clone https://github.com/zyhfm/small.git package/openwrt-small
 #git clone https://github.com/kenzok8/small.git package/openwrt-small
 git clone https://github.com/281677160/openwrt-package.git package/openwrt-package
-git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
+#git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
 git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
