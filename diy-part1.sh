@@ -38,8 +38,8 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #git clone https://github.com/281677160/openwrt-package.git package/openwrt-packages
 #git clone https://github.com/zyhfm/small.git package/openwrt-small
-git clone https://github.com/zyhfm/openwrt-package-1.git package/openwrt-package-1
-#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+#git clone https://github.com/zyhfm/openwrt-package-1.git package/openwrt-package-1
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/281677160/openwrt-package.git package/openwrt-package
 git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
 git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
