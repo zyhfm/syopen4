@@ -9,7 +9,9 @@
 # File name: diy-part1.sh
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
-sed -i 's/PATCHVER:=5.10/PATCHVER:=5.4.162/g' target/linux/x86/Makefile                              # 修改内核版本为5.4,默认内核5.10
+sed -i 's/PATCHVER:=5.15/PATCHVER:=5.4.162/g' target/linux/x86/Makefile                              # 修改内核版本为5.4,默认内核5.10
+
+#sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.15/g' ./target/linux/x86/Makefile
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
